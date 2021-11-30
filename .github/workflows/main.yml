@@ -19,10 +19,10 @@ jobs:
     steps:
       # リポジトリからチェックアウトして以下の処理を実行していく
       - uses: actions/checkout@v2
-      - name: Set up Python 3.10
+      - name: Set up Python 3.8
         uses: actions/setup-python@v1
         with:
-          python-version: 3.10
+          python-version: 3.8
       - name: Install dependencies
         run: |
           # pip更新
@@ -32,7 +32,6 @@ jobs:
           !pip install schedule
       - name: Run script
         run: |
-          # main.pyの実行
           python tenki_main.py
 
 # ```
