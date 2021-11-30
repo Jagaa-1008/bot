@@ -30,6 +30,8 @@ def tenki():
     temp = data1['temp']
     data2 = data['weather'][0]
     di = data2['description']
+    
+    txt = "%s \ntemperature : %d \n%s" %(city,temp,di)
 
 def houkoku():
     USER_ID1 = info['USER_ID1']
@@ -39,5 +41,4 @@ def houkoku():
 
 if __name__ == '__main__':
     tenki()
-    txt = "%s \ntemperature : %s \n%s" %(city,temp,di)
     houkoku()
