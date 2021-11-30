@@ -32,8 +32,7 @@ def tenki():
     di = data2['description']
     
     txt = "%s \ntemperature : %d \n%s" %(city,temp,di)
-
-def houkoku():
+    
     USER_ID1 = info['USER_ID1']
     USER_ID2 = info['USER_ID2']
 #    line_bot_api.push_message (USER_ID1, messages = TextSendMessage(text = txt))
@@ -41,4 +40,3 @@ def houkoku():
 
 if __name__ == '__main__':
     tenki()
-    houkoku()
