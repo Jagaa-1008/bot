@@ -30,7 +30,7 @@ jobs:
           python -m pip install --upgrade pip
           # 必要なパッケージインストール
           pip install line-bot-sdk
-          !pip install schedule
+          pip install schedule
       - name: Run script
         run: |
           python tenki_main.py
