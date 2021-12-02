@@ -1,5 +1,3 @@
-get_ipython().system('pip install line-bot-sdk')
-
 import json
 file = open('timetable.json','r')
 info = json.load(file)
