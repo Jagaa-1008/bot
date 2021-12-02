@@ -39,7 +39,7 @@ def main():
     elif (today == 'Sunday'):
         messages = sunday
     
-    line_bot_api.push_message (USER_ID1, messages = TextSendMessage(messages))
+    line_bot_api.push_message (USER_ID2, messages = TextSendMessage(messages))
     
 if __name__ == '__main__':
     main()
