@@ -9,7 +9,7 @@ name: tenki
 on:
 #  push:
   schedule:
-    - cron: '45 21 * * *'
+    - cron: '00 01 * * *'
 
 jobs:
   build:
@@ -34,3 +34,4 @@ jobs:
       - name: Run script
         run: |
           python tenki_main.py
+          python timetable.py
