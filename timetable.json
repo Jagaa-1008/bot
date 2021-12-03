@@ -3,35 +3,35 @@
         "first period": "",
         "second period": "",
         "third period": "計算機アーキテクチャ",
-        "forth period": "オブジェクト指向プログラミング",
+        "fourth period": "オブジェクト指向プログラミング",
         "fifth period": "Intercultural Communication"
     },
     "Tuesday": {
         "first period": "English Reading",
         "second period": "代数学",
         "third period": "知能情報システム工学実験1A",
-        "forth period": "知能情報システム工学実験1A",
+        "fourth period": "知能情報システム工学実験1A",
         "fifth period": "知能情報システム工学実験1A"
     },
     "Wednesday": {
         "first period": "情報化社会と職業",
         "second period": "",
         "third period": "",
-        "forth period": "",
+        "fourth period": "",
         "fifth period": "計算機アーキテクチャ演習"
     },
     "Thursday": {
         "first_period": "",
         "second_period": "基礎情報数学",
         "third period": "アルゴリズム論",
-        "forth period": "信号処理論",
+        "fourth period": "信号処理論",
         "fifth period": ""
     },
     "Friday": {
         "first period": "",
         "second period": "社会言語情報論",
         "third period": "",
-        "forth period": "情報理論",
+        "fourth period": "情報理論",
         "fifth period": ""
     }
 }
